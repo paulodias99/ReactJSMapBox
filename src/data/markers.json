@@ -1,0 +1,41 @@
+{
+    "type": "FeatureCollection",
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "MARKER_ID": 0,
+          "NAME": "Casa do Paulo",
+          "DESCRIPTIO": "Aqui reside Paulo Dias."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -38.4893654,
+            -3.8368808
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "MARKER_ID": 0,
+          "NAME": "LAPISCO - IFCE",
+          "DESCRIPTIO": "O Laboratório de Processamento de Imagens, Sinais e Computação Aplicada (LAPISCO) está situado dentro do campus Fortaleza do Instituto Federal de Educação, Ciência e Tecnologia do Ceará (IFCE)."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -38.5360851,
+            -3.7447518
+          ]
+        }
+      }
+    ]
+}
