@@ -1,18 +1,13 @@
 {
     "type": "FeatureCollection",
-    "crs": {
-      "type": "name",
-      "properties": {
-        "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
-      }
-    },
     "features": [
       {
         "type": "Feature",
         "properties": {
           "MARKER_ID": 0,
           "NAME": "Casa do Paulo",
-          "DESCRIPTIO": "Aqui reside Paulo Dias."
+          "DESCRIPTIO": "Aqui reside Paulo Dias.",
+          "IMG": "https://lumeconsorcios.com.br/wp-content/uploads/2020/02/consorcio-de-imovel.jpg"
         },
         "geometry": {
           "type": "Point",
@@ -27,7 +22,8 @@
         "properties": {
           "MARKER_ID": 0,
           "NAME": "LAPISCO - IFCE",
-          "DESCRIPTIO": "O Laboratório de Processamento de Imagens, Sinais e Computação Aplicada (LAPISCO) está situado dentro do campus Fortaleza do Instituto Federal de Educação, Ciência e Tecnologia do Ceará (IFCE)."
+          "DESCRIPTIO": "O Laboratório de Processamento de Imagens, Sinais e Computação Aplicada (LAPISCO) está situado dentro do campus Fortaleza do Instituto Federal de Educação, Ciência e Tecnologia do Ceará (IFCE).",
+          "IMG": "http://lapisco.ifce.edu.br/wp-content/uploads/2021/03/LOGO-06-copia.jpg"
         },
         "geometry": {
           "type": "Point",

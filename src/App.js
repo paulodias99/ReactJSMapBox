@@ -1,3 +1,5 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
+/* eslint-disable jsx-a11y/alt-text */
 import React, { useState } from "react";
 import ReactMapGL, { Marker, Popup } from "react-map-gl";
 import * as markerDate from "./data/markers.json";
@@ -49,7 +51,9 @@ export default function App() {
             }}
           >
             <div>
+              <img class="img-popup" src={selectedMarker.properties.IMG}></img>
               <h2>{selectedMarker.properties.NAME}</h2>
+              <a class= "a-popup" href="#">Ver mais</a>
               <p>{selectedMarker.properties.DESCRIPTIO}</p>
             </div>
           </Popup>

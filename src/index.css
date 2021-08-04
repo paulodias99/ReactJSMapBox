@@ -26,3 +26,15 @@ code {
 .popup {
   width: 300px;
 }
+
+.img-popup {
+  align-self: center;
+  width: 100%;
+  height: 100%;
+}
+
+.a-popup{
+  text-decoration: none;
+  color: green;
+  font-weight: bold;
+}
