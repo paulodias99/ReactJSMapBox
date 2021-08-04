@@ -23,7 +23,7 @@ export default function App() {
         {...viewport}
         onViewportChange={(newView) => setViewport(newView)}
       >
-        {markerDate.features.map(marker => (
+        {markerDate.features.map(marker => (  
           <Marker
             key={marker.properties.MARKER_ID}
             latitude={marker.geometry.coordinates[1]}
